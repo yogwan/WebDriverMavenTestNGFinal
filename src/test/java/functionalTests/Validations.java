@@ -22,7 +22,7 @@ public class Validations {
 	//Assert.assertTrue(false, "Element Not Found");
 	//Assert.fail("Failing the test as condition is not met");
 	
-	System.out.println("Validating Image");
+	System.out.println("Validating Images");
 	Assert.assertEquals(true, false);
 	
 	System.out.println("Validating Text Boxes");
