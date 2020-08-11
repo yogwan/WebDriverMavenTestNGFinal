@@ -1,58 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="9" passed="6">
+<testng-results skipped="1" failed="3" ignored="0" total="8" passed="4">
   <reporter-output>
-    <line>
-      <![CDATA[Screenshot Link]]>
-    </line>
-    <line>
-      <![CDATA[Screenshot Link]]>
-    </line>
-    <line>
-      <![CDATA[Screenshot Link]]>
-    </line>
   </reporter-output>
-  <suite name="Functional Suit" duration-ms="210" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+  <suite name="Functional Suit" duration-ms="1073" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:42 IST">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="51" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
-      <class name="listenerTests.LoginTestCase">
-        <test-method status="PASS" signature="createDBConn()[pri:0, instance:listenerTests.LoginTestCase@a74868d]" name="createDBConn" is-config="true" duration-ms="9" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+    <test name="Login Test" duration-ms="215" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:41 IST">
+      <class name="functionalTests.LoginTestCase">
+        <test-method status="PASS" signature="createDBConn()[pri:0, instance:functionalTests.LoginTestCase@4b1c1ea0]" name="createDBConn" is-config="true" duration-ms="96" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDBConn -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:listenerTests.LoginTestCase@a74868d]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:functionalTests.LoginTestCase@4b1c1ea0]" name="launchBrowser" is-config="true" duration-ms="1" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="doUserRegistration()[pri:1, instance:listenerTests.LoginTestCase@a74868d]" name="doUserRegistration" duration-ms="5" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+        <test-method status="PASS" signature="doUserRegistration()[pri:1, instance:functionalTests.LoginTestCase@4b1c1ea0]" name="doUserRegistration" duration-ms="8" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserRegistration -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:listenerTests.LoginTestCase@a74868d]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:functionalTests.LoginTestCase@4b1c1ea0]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:listenerTests.LoginTestCase@a74868d]" name="launchBrowser" is-config="true" duration-ms="1" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="doLogin()[pri:2, instance:listenerTests.LoginTestCase@a74868d]" name="doLogin" duration-ms="1" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+        <test-method status="PASS" signature="doLogin()[pri:2, instance:functionalTests.LoginTestCase@4b1c1ea0]" name="doLogin" duration-ms="2" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:listenerTests.LoginTestCase@a74868d]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:functionalTests.LoginTestCase@4b1c1ea0]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:functionalTests.LoginTestCase@4b1c1ea0]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeDBConn()[pri:0, instance:listenerTests.LoginTestCase@a74868d]" name="closeDBConn" is-config="true" duration-ms="0" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+        <test-method status="PASS" signature="closeDBConn()[pri:0, instance:functionalTests.LoginTestCase@4b1c1ea0]" name="closeDBConn" is-config="true" duration-ms="0" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBConn -->
-      </class> <!-- listenerTests.LoginTestCase -->
+      </class> <!-- functionalTests.LoginTestCase -->
     </test> <!-- Login Test -->
-    <test name="Soft Assertion Test" duration-ms="12" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
-      <class name="listenerTests.SoftAssertions">
-        <test-method status="FAIL" signature="softAssertions()[pri:0, instance:listenerTests.SoftAssertions@df27fae]" name="softAssertions" duration-ms="7" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+    <test name="Soft Assertion Test" duration-ms="93" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:42 IST">
+      <class name="functionalTests.SoftAssertions">
+        <test-method status="FAIL" signature="softAssertions()[pri:0, instance:functionalTests.SoftAssertions@480bdb19]" name="softAssertions" duration-ms="10" started-at="2020-08-11T23:35:41 IST" finished-at="2020-08-11T23:35:41 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -67,7 +58,7 @@ Image Not Found expected [false] but found [true],
 Textbox Not Found expected [false] but found [true]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at listenerTests.SoftAssertions.softAssertions(SoftAssertions.java:29)
+at functionalTests.SoftAssertions.softAssertions(SoftAssertions.java:29)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -100,36 +91,100 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
-            <line>
-              <![CDATA[Screenshot Link]]>
-            </line>
           </reporter-output>
         </test-method> <!-- softAssertions -->
-      </class> <!-- listenerTests.SoftAssertions -->
+      </class> <!-- functionalTests.SoftAssertions -->
     </test> <!-- Soft Assertion Test -->
-    <test name="Dependencies Test" duration-ms="18" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
-      <class name="listenerTests.TestDependencies">
-        <test-method status="PASS" signature="doUserRegistration()[pri:1, instance:listenerTests.TestDependencies@4fcd19b3]" name="doUserRegistration" duration-ms="3" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+    <test name="Dependencies Test" duration-ms="71" started-at="2020-08-11T23:35:42 IST" finished-at="2020-08-11T23:35:42 IST">
+      <class name="functionalTests.TestDependencies">
+        <test-method status="FAIL" signature="doUserRegistration()[pri:1, instance:functionalTests.TestDependencies@7a187f14]" name="doUserRegistration" duration-ms="3" started-at="2020-08-11T23:35:42 IST" finished-at="2020-08-11T23:35:42 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User not registered successfully]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User not registered successfully
+at org.testng.Assert.fail(Assert.java:99)
+at functionalTests.TestDependencies.doUserRegistration(TestDependencies.java:13)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserRegistration -->
-        <test-method status="PASS" signature="doLogin()[pri:2, instance:listenerTests.TestDependencies@4fcd19b3]" name="doLogin" duration-ms="2" started-at="2020-08-11T00:27:58 IST" depends-on-methods="listenerTests.TestDependencies.doUserRegistration" finished-at="2020-08-11T00:27:58 IST">
+        <test-method status="SKIP" signature="doLogin()[pri:2, instance:functionalTests.TestDependencies@7a187f14]" name="doLogin" duration-ms="0" started-at="2020-08-11T23:35:42 IST" depends-on-methods="functionalTests.TestDependencies.doUserRegistration" finished-at="2020-08-11T23:35:42 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestDependencies.doLogin()[pri:2, instance:functionalTests.TestDependencies@7a187f14] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestDependencies.doLogin()[pri:2, instance:functionalTests.TestDependencies@7a187f14] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doForgotPassword()[pri:3, instance:listenerTests.TestDependencies@4fcd19b3]" name="doForgotPassword" duration-ms="1" started-at="2020-08-11T00:27:58 IST" depends-on-methods="listenerTests.TestDependencies.doUserRegistration" finished-at="2020-08-11T00:27:58 IST">
+        <test-method status="PASS" signature="doForgotPassword()[pri:3, instance:functionalTests.TestDependencies@7a187f14]" name="doForgotPassword" duration-ms="2" started-at="2020-08-11T23:35:42 IST" depends-on-methods="functionalTests.TestDependencies.doUserRegistration" finished-at="2020-08-11T23:35:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doForgotPassword -->
-        <test-method status="PASS" signature="doForgotUsername()[pri:4, instance:listenerTests.TestDependencies@4fcd19b3]" name="doForgotUsername" duration-ms="3" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+        <test-method status="PASS" signature="doForgotUsername()[pri:4, instance:functionalTests.TestDependencies@7a187f14]" name="doForgotUsername" duration-ms="7" started-at="2020-08-11T23:35:42 IST" finished-at="2020-08-11T23:35:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doForgotUsername -->
-      </class> <!-- listenerTests.TestDependencies -->
+      </class> <!-- functionalTests.TestDependencies -->
     </test> <!-- Dependencies Test -->
-    <test name="Validations Test" duration-ms="8" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
-      <class name="listenerTests.Validations">
-        <test-method status="FAIL" signature="validateTitles()[pri:0, instance:listenerTests.Validations@52525845]" name="validateTitles" duration-ms="4" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
+    <test name="Validations Test" duration-ms="19" started-at="2020-08-11T23:35:42 IST" finished-at="2020-08-11T23:35:42 IST">
+      <class name="functionalTests.Validations">
+        <test-method status="FAIL" signature="validateTitles()[pri:0, instance:functionalTests.Validations@37d31475]" name="validateTitles" duration-ms="6" started-at="2020-08-11T23:35:42 IST" finished-at="2020-08-11T23:35:42 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Yahoo.com] but found [Google.com]]]>
@@ -142,7 +197,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at listenerTests.Validations.validateTitles(Validations.java:22)
+at functionalTests.Validations.validateTitles(Validations.java:21)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -175,62 +230,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
-            <line>
-              <![CDATA[Screenshot Link]]>
-            </line>
           </reporter-output>
         </test-method> <!-- validateTitles -->
-      </class> <!-- listenerTests.Validations -->
+      </class> <!-- functionalTests.Validations -->
     </test> <!-- Validations Test -->
-    <test name="Failure Test" duration-ms="5" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
-      <class name="listenerTests.TestFailure">
-        <test-method status="FAIL" signature="doLogin()[pri:0, instance:listenerTests.TestFailure@587c290d]" name="doLogin" duration-ms="1" started-at="2020-08-11T00:27:58 IST" finished-at="2020-08-11T00:27:58 IST">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failing the Login Test]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failing the Login Test
-at org.testng.Assert.fail(Assert.java:99)
-at listenerTests.TestFailure.doLogin(TestFailure.java:14)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[Screenshot Link]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-      </class> <!-- listenerTests.TestFailure -->
-    </test> <!-- Failure Test -->
   </suite> <!-- Functional Suit -->
 </testng-results>

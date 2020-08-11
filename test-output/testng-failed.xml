@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Suit]">
-  <listeners>
-    <listener class-name="customListeners.Listeners"/>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-  </listeners>
   <test thread-count="5" name="Soft Assertion Test(failed)">
     <classes>
-      <class name="listenerTests.SoftAssertions">
+      <class name="functionalTests.SoftAssertions">
         <methods>
           <include name="softAssertions"/>
         </methods>
-      </class> <!-- listenerTests.SoftAssertions -->
+      </class> <!-- functionalTests.SoftAssertions -->
     </classes>
   </test> <!-- Soft Assertion Test(failed) -->
+  <test thread-count="5" name="Dependencies Test(failed)">
+    <classes>
+      <class name="functionalTests.TestDependencies">
+        <methods>
+          <include name="doUserRegistration"/>
+          <include name="doLogin"/>
+        </methods>
+      </class> <!-- functionalTests.TestDependencies -->
+    </classes>
+  </test> <!-- Dependencies Test(failed) -->
   <test thread-count="5" name="Validations Test(failed)">
     <classes>
-      <class name="listenerTests.Validations">
+      <class name="functionalTests.Validations">
         <methods>
           <include name="validateTitles"/>
         </methods>
-      </class> <!-- listenerTests.Validations -->
+      </class> <!-- functionalTests.Validations -->
     </classes>
   </test> <!-- Validations Test(failed) -->
-  <test thread-count="5" name="Failure Test(failed)">
-    <classes>
-      <class name="listenerTests.TestFailure">
-        <methods>
-          <include name="doLogin"/>
-        </methods>
-      </class> <!-- listenerTests.TestFailure -->
-    </classes>
-  </test> <!-- Failure Test(failed) -->
 </suite> <!-- Failed suite [Functional Suit] -->
