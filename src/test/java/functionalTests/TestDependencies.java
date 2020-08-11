@@ -10,7 +10,7 @@ public class TestDependencies {
 	public void doUserRegistration() {
 
 		System.out.println("Test Case 1:Do User Registration Test Case");
-		Assert.fail("User not registered successfully");
+		//Assert.fail("User not registered successfully");
 
 	}
 	

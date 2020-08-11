@@ -16,17 +16,18 @@ public class SoftAssertions {
 	SoftAssert softAssert = new SoftAssert(); //Create an object of SoftAssert() class in order to use soft assertions
 	
 	System.out.println("Validating Titles");
-	softAssert.assertEquals(actual_title, expected_title, "Titles Mismatch");
-	
-	System.out.println("Validating Image");
-	softAssert.assertEquals(true, false, "Image Not Found");
-	
-	System.out.println("Validating Text Boxes");
-	softAssert.assertEquals(true, false, "Textbox Not Found");
-		
-	System.out.println("Ending");
-	
-	softAssert.assertAll(); //This one statement will report result of each step
-	
+		/*
+		 * softAssert.assertEquals(actual_title, expected_title, "Titles Mismatch");
+		 * 
+		 * System.out.println("Validating Image"); softAssert.assertEquals(true, false,
+		 * "Image Not Found");
+		 * 
+		 * System.out.println("Validating Text Boxes"); softAssert.assertEquals(true,
+		 * false, "Textbox Not Found");
+		 * 
+		 * System.out.println("Ending");
+		 * 
+		 * softAssert.assertAll(); //This one statement will report result of each step
+		 */	
 	}
 }

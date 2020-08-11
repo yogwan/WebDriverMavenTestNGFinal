@@ -18,15 +18,15 @@ public class Validations {
 			System.out.println("Test is Failed");
 		}*/
 	System.out.println("Validating Titles");
-	Assert.assertEquals(actual_title, expected_title);
+	//Assert.assertEquals(actual_title, expected_title);
 	//Assert.assertTrue(false, "Element Not Found");
 	//Assert.fail("Failing the test as condition is not met");
 	
 	System.out.println("Validating Images");
-	Assert.assertEquals(true, false);
+	//Assert.assertEquals(true, false);
 	
 	System.out.println("Validating Text Boxes");
-	Assert.assertEquals(true, false);
+	//Assert.assertEquals(true, false);
 		
 	System.out.println("Ending");
 
