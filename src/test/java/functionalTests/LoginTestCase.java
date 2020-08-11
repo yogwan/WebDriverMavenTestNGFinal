@@ -17,7 +17,7 @@ public class LoginTestCase {
 	@AfterMethod
 	public void closeBrowser() {
 	
-	System.out.println("Close Browser");
+	System.out.println("Closing Browser");
 	}
 
 	@BeforeTest

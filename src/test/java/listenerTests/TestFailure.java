@@ -11,7 +11,7 @@ public void doLogin() {
 
 System.out.println("Capture Screenshot");
 
-Assert.fail("Failing the Login Test");
+Assert.fail("Forcefully Failing the Login Test");
 	
 }
 
