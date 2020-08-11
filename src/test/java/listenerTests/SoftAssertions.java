@@ -13,7 +13,7 @@ public class SoftAssertions {
 	String expected_title = "Yahoo.com";
 	String actual_title = "Google.com";
 	
-	SoftAssert softAssert = new SoftAssert(); //Create an object of SoftAssert() class in order to use soft assertions
+	/*SoftAssert softAssert = new SoftAssert(); //Create an object of SoftAssert() class in order to use soft assertions
 	
 	System.out.println("Validating Titles");
 	softAssert.assertEquals(actual_title, expected_title, "Titles Mismatch");
@@ -26,7 +26,7 @@ public class SoftAssertions {
 		
 	System.out.println("Ending");
 	
-	softAssert.assertAll(); //This one statement will report result of each step
+	softAssert.assertAll(); //This one statement will report result of each step*/
 	
 	}
 }
